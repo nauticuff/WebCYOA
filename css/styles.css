@@ -1,0 +1,22 @@
+.strength {
+    background-image: url("/assets/Images/strength.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    font-family: EldenFont;
+    font-size: 20px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: EldenFont;
+    src: url(/assets/Fonts/Mantinia\ Regular/Regular);
+  }
+
+ 
+
+
+
+
+
