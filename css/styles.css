@@ -22,3 +22,18 @@ left: 30px;
     font-family: EldenFont;
     src: url(/assets/Fonts/Mantinia\ Regular/Regular);
   }
+
+  
+.payButton {
+position: fixed;
+left: 20%;
+top: 40%;
+$btn-font-size: 100px;
+
+}
+
+.playButton {
+position: fixed;
+left: 80%;
+top: 40%;
+}
