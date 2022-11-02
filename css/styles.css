@@ -166,17 +166,39 @@ a:active {
   position: fixed;
   left: 80%;
   top: 80%;
-  background-color: wheat;
   text-decoration: none;
   padding: 0px 10px;
   font-size: 60px;
   background-color: blanchedalmond;
+  font-family: EldenFont;
+  src: url(/assets/Fonts/Mantinia\ Regular/Regular);
   }
 
   .titletxt {
     color: rgb(228, 224, 219);
+    font-family: EldenFont;
+    src: url(/assets/Fonts/Mantinia\ Regular/Regular);
     font-size: 8rem;
     left: 12%;
     top: 60%;
     
   }
+
+  .sideQuests {
+    background-image: url(https://media.distractify.com/brand-img/cJKwE5KXh/0x0/the-elden-beast-2-1647381869423.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
+
+
+  .Ending {
+    background-image: url(https://news.xbox.com/en-us/wp-content/uploads/sites/2/2022/02/EldenRing_Coop_HERO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
