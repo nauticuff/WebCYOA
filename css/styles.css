@@ -33,15 +33,17 @@ src: url(/assets/Fonts/Mantinia\ Regular/Regular);
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    font-family: EldenFont;
 }
 
 .strengthText {
-  height: 50px;
-  width: 600px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  width: 30vw;
+  height: 20vh;
+  top: 20%;
+  left: 30%;
+  font-family: EldenFont;
+  position: relative;
+  text-shadow: 2px 2px white;
+  
   
 }
 
@@ -50,23 +52,35 @@ src: url(/assets/Fonts/Mantinia\ Regular/Regular);
     src: url(/assets/Fonts/Mantinia\ Regular/Regular);
   }
 
-  
-.payButton {
+.firstBtn {
 position: fixed;
-left: 20%;
-top: 40%;
+left: 12%;
+top: 80%;
+background-color: rgb(255, 255, 255);
+text-decoration: none;
+padding: 0px 10px;
+font-size: 50px;
 }
 
-.btn-bd-primary {
---bs-btn-font-weight: 600;
---bs-btn-color: var(--bs-red);
---bs-btn-bg: var(--bd-violet);
---bs-btn-border-color: var(--bd-violet);
---bs-btn-border-radius: .5rem;
---bs-btn-hover-color: var(--bs-white);
---bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
---bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
---bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
---bs-btn-active-color: var(--bs-btn-hover-color);
---bs-btn-active-bg: #{shade-color($bd-violet, 20%)};--bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+.secondBtn {
+position: fixed;
+left: 56%;
+top: 80%;
+background-color: rgb(252, 252, 252);
+text-decoration: none;
+padding: 0px 10px;
+font-size: 50px;
+}
+
+a:link {
+  color: rgb(7, 7, 7);
+}
+a:visited {
+  color: rgb(30, 0, 161);
+}
+a:hover {
+  color: rgb(60, 186, 29);
+}
+a:active {
+  color: rgb(114, 114, 208);
 }
