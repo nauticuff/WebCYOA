@@ -85,3 +85,7 @@ a:hover {
 a:active {
   color: rgb(8, 8, 7);
 }
+
+.playEndingImage {
+  background-image: url();
+}
