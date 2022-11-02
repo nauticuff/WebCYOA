@@ -136,6 +136,31 @@ a:active {
 .payEnding {
   background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2017_25/2049906/170623-better-credit-card-jump-better-ew-12449.jpg);
 }
+.page6 {
+  background-image: url(https://assets2.rockpapershotgun.com/malenia-head-elden-ring.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/malenia-head-elden-ring.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.page8 {
+  background-image: url(  https://i.ytimg.com/vi/tN-9bfbCAAc/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.textBoxRed {
+  width: 80vw;
+  height: 20vh;
+  top: 20%;
+  left: 13%;
+  font-family: EldenFont;
+  position: fixed;
+  text-shadow: 1.5px 1.7px rgb(18, 17, 18);  
+  font-size: 40px;
+  color: rgb(213, 49, 49);
+}
 
 .TitleBtn {
   position: fixed;
@@ -159,6 +184,16 @@ a:active {
     top: 60%;
     
   }
+
+  .sideQuests {
+    background-image: url(https://media.distractify.com/brand-img/cJKwE5KXh/0x0/the-elden-beast-2-1647381869423.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
+
 
   .Ending {
     background-image: url(https://news.xbox.com/en-us/wp-content/uploads/sites/2/2022/02/EldenRing_Coop_HERO.jpg);
