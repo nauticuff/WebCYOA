@@ -5,7 +5,9 @@
  .firstPageText {
 position: absolute;
 text-align: justify;
-margin-top: 1cm;
+width: 70%;
+left: 10%;
+top: 10%;
 color: blanchedalmond;
 font-family: EldenFont;
 src: url(/assets/Fonts/Mantinia\ Regular/Regular);
