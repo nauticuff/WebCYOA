@@ -107,7 +107,6 @@ font-size: 50px;
   .heading {
     color: blanchedalmond;
     font-size: 8rem;
-    display: flex;
     justify-content: center;
   }
 .secondBtn {
@@ -162,3 +161,22 @@ a:active {
   font-size: 40px;
   color: rgb(213, 49, 49);
 }
+
+.TitleBtn {
+  position: fixed;
+  left: 80%;
+  top: 80%;
+  background-color: wheat;
+  text-decoration: none;
+  padding: 0px 10px;
+  font-size: 60px;
+  background-color: blanchedalmond;
+  }
+
+  .titletxt {
+    color: rgb(228, 224, 219);
+    font-size: 8rem;
+    left: 12%;
+    top: 60%;
+    
+  }
