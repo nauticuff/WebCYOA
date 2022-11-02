@@ -192,6 +192,15 @@ a:active {
     width: 100vw;
   }
 
+  .playEnding {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/98/839/824/knight-medieval-drawing-dragon-sword-hd-wallpaper-thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+  }
+
 
 
   .Ending {
