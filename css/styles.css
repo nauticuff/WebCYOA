@@ -12,13 +12,15 @@ color: blanchedalmond;
 font-family: EldenFont;
 src: url(/assets/Fonts/Mantinia\ Regular/Regular);
 }
-.strengthBtn {
-  text-decoration: none;
 
+.page2 {
+  background-image: url(https://i.kym-cdn.com/photos/images/facebook/002/337/253/0d5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
-.dexBtn {
-  text-decoration: none;
-}
+
 .Malenia {
   background-image: url(https://cdna.artstation.com/p/assets/images/images/046/303/870/large/caio-santos-dfgdfg.jpg?1644798826);
   background-repeat: no-repeat;
