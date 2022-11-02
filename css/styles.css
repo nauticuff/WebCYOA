@@ -55,3 +55,34 @@ top: 40%;
 --bs-btn-active-color: var(--bs-btn-hover-color);
 --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};--bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
 }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .title {
+    background-image: url(https://asset.vg247.com/elden_ring_radagon_guide_boss_scene_2.jpg/BROK/resize/1380%3E/format/jpg/quality/80/elden_ring_radagon_guide_boss_scene_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .banner {
+    position: relativel;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .heading {
+    color: blanchedalmond;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+  }
