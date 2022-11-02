@@ -21,15 +21,15 @@ src: url(/assets/Fonts/Mantinia\ Regular/Regular);
 }
 
 .strengthText {
-  width: 30vw;
+  width: 80vw;
   height: 20vh;
   top: 20%;
-  left: 30%;
+  left: 13%;
   font-family: EldenFont;
-  position: relative;
-  text-shadow: 2px 2px white;
-  
-  
+  position: fixed;
+  text-shadow: 1.5px 1.7px rgb(18, 17, 18);  
+  font-size: 55px;
+  color: rgb(213, 148, 49);
 }
 
 @font-face {
@@ -41,7 +41,7 @@ src: url(/assets/Fonts/Mantinia\ Regular/Regular);
 position: fixed;
 left: 12%;
 top: 80%;
-background-color: rgb(255, 255, 255);
+background-color: #a6a6a6;
 text-decoration: none;
 padding: 0px 10px;
 font-size: 50px;
@@ -51,7 +51,7 @@ font-size: 50px;
 position: fixed;
 left: 56%;
 top: 80%;
-background-color: rgb(252, 252, 252);
+background-color: #a6a6a6;
 text-decoration: none;
 padding: 0px 10px;
 font-size: 50px;
@@ -61,11 +61,12 @@ a:link {
   color: rgb(7, 7, 7);
 }
 a:visited {
-  color: rgb(30, 0, 161);
+  color: rgb(64, 51, 117);
 }
 a:hover {
-  color: rgb(60, 186, 29);
+  color: rgb(178, 82, 193);
+  text-shadow: 3px 3px rgb(187, 177, 177);
 }
 a:active {
-  color: rgb(114, 114, 208);
+  color: rgb(8, 8, 7);
 }
