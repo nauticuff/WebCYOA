@@ -1,215 +1,241 @@
  .img {
-    object-fit: contain;
-    object-fit: cover;
-}
+   object-fit: contain;
+   object-fit: cover;
+ }
+
  .firstPageText {
-position: absolute;
-text-align: justify;
-width: 70%;
-left: 10%;
-top: 10%;
-color: blanchedalmond;
-font-family: EldenFont;
-src: url(/assets/Fonts/Mantinia\ Regular/Regular);
-}
+   position: absolute;
+   text-align: justify;
+   width: 70%;
+   left: 10%;
+   top: 10%;
+   color: blanchedalmond;
+   font-family: EldenFont;
+   src: url(/assets/Fonts/Mantinia\ Regular/Regular);
+ }
 
-.page2 {
-  background-image: url(https://i.kym-cdn.com/photos/images/facebook/002/337/253/0d5);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-}
+ .page2 {
+   background-image: url(https://i.kym-cdn.com/photos/images/facebook/002/337/253/0d5);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+ }
 
-.Malenia {
-  background-image: url(https://cdna.artstation.com/p/assets/images/images/046/303/870/large/caio-santos-dfgdfg.jpg?1644798826);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-  font-family: EldenFont;
+ .Malenia {
+   background-image: url(https://cdna.artstation.com/p/assets/images/images/046/303/870/large/caio-santos-dfgdfg.jpg?1644798826);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   font-family: EldenFont;
 
  }
 
-.strength {
-    background-image: url("/assets/Images/strength.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
+ .strength {
+   background-image: url("/assets/Images/strength.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+ }
 
-.textBox {
-  width: 80vw;
-  height: 20vh;
-  top: 20%;
-  left: 13%;
-  font-family: EldenFont;
-  position: fixed;
-  text-shadow: 1.5px 1.7px rgb(18, 17, 18);  
-  font-size: 40px;
-  color: rgb(213, 148, 49);
-}
+ .textBox {
+   width: 80vw;
+   height: 20vh;
+   top: 20%;
+   left: 13%;
+   font-family: EldenFont;
+   position: fixed;
+   text-shadow: 1.5px 1.7px rgb(18, 17, 18);
+   font-size: 40px;
+   color: rgb(213, 148, 49);
+ }
 
-@font-face {
-    font-family: EldenFont;
-    src: url(/assets/Fonts/Mantinia\ Regular/Regular);
-  }
+ @font-face {
+   font-family: EldenFont;
+   src: url(/assets/Fonts/Mantinia\ Regular/Regular);
+ }
 
-.firstBtn {
-position: fixed;
-left: 12%;
-top: 80%;
-background-color: #a6a6a6;
-text-decoration: none;
-padding: 0px 10px;
-font-size: 50px;
-}
+ .firstBtn {
+   position: fixed;
+   left: 12%;
+   top: 80%;
+   background-color: #a6a6a6;
+   text-decoration: none;
+   padding: 0px 10px;
+   font-size: 50px;
+ }
 
-.btn-bd-primary {
---bs-btn-font-weight: 600;
---bs-btn-color: var(--bs-red);
---bs-btn-bg: var(--bd-violet);
---bs-btn-border-color: var(--bd-violet);
---bs-btn-border-radius: .5rem;
---bs-btn-hover-color: var(--bs-white);
---bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
---bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
---bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
---bs-btn-active-color: var(--bs-btn-hover-color);
---bs-btn-active-bg: #{shade-color($bd-violet, 20%)};--bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
-}
-
-
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  .title {
-    background-image: url(https://asset.vg247.com/elden_ring_radagon_guide_boss_scene_2.jpg/BROK/resize/1380%3E/format/jpg/quality/80/elden_ring_radagon_guide_boss_scene_2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-  }
-
-  .banner {
-    position: relativel;
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .banner img {
-    width: 100%;
-  }
-
-  .heading {
-    color: blanchedalmond;
-    font-size: 8rem;
-    justify-content: center;
-  }
-.secondBtn {
-position: fixed;
-left: 56%;
-top: 80%;
-background-color: #a6a6a6;
-text-decoration: none;
-padding: 0px 10px;
-font-size: 50px;
-}
-
-a:link {
-  color: rgb(7, 7, 7);
-}
-a:visited {
-  color: rgb(64, 51, 117);
-}
-a:hover {
-  color: rgb(178, 82, 193);
-  text-shadow: 3px 3px rgb(187, 177, 177);
-}
-a:active {
-  color: rgb(8, 8, 7);
-}
-
-.payEnding {
-  background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2017_25/2049906/170623-better-credit-card-jump-better-ew-12449.jpg);
-}
-.page6 {
-  background-image: url(https://assets2.rockpapershotgun.com/malenia-head-elden-ring.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/malenia-head-elden-ring.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-}
-.page8 {
-  background-image: url(  https://i.ytimg.com/vi/tN-9bfbCAAc/maxresdefault.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-}
-.textBoxRed {
-  width: 80vw;
-  height: 20vh;
-  top: 20%;
-  left: 13%;
-  font-family: EldenFont;
-  position: fixed;
-  text-shadow: 1.5px 1.7px rgb(18, 17, 18);  
-  font-size: 40px;
-  color: rgb(213, 49, 49);
-}
-
-.TitleBtn {
-  position: fixed;
-  left: 80%;
-  top: 80%;
-  background-color: none;
-  text-decoration: none;
-  padding: 0px 10px;
-  font-size: 60px;
-  background-color: blanchedalmond;
-  font-family: EldenFont;
-  src: url(/assets/Fonts/Mantinia\ Regular/Regular);
-  }
-
-  .titletxt {
-    color: rgb(228, 224, 219);
-    font-family: EldenFont;
-    src: url(/assets/Fonts/Mantinia\ Regular/Regular);
-    font-size: 8rem;
-    left: 12%;
-    top: 60%;
-    
-  }
-
-  .sideQuests {
-    background-image: url(https://media.distractify.com/brand-img/cJKwE5KXh/0x0/the-elden-beast-2-1647381869423.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-  }
-
-  .playEnding {
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/98/839/824/knight-medieval-drawing-dragon-sword-hd-wallpaper-thumb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-
-  }
+ .btn-bd-primary {
+   --bs-btn-font-weight: 600;
+   --bs-btn-color: var(--bs-red);
+   --bs-btn-bg: var(--bd-violet);
+   --bs-btn-border-color: var(--bd-violet);
+   --bs-btn-border-radius: .5rem;
+   --bs-btn-hover-color: var(--bs-white);
+   --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+   --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+   --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+   --bs-btn-active-color: var(--bs-btn-hover-color);
+   --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+   --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+ }
 
 
+ * {
+   margin: 0;
+   padding: 0;
+ }
 
-  .Ending {
-    background-image: url(https://news.xbox.com/en-us/wp-content/uploads/sites/2/2022/02/EldenRing_Coop_HERO.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-  }
+ .title {
+   background-image: url(https://asset.vg247.com/elden_ring_radagon_guide_boss_scene_2.jpg/BROK/resize/1380%3E/format/jpg/quality/80/elden_ring_radagon_guide_boss_scene_2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+ }
 
+ .banner {
+   position: relativel;
+   width: 90%;
+   margin: 0 auto;
+ }
+
+ .banner img {
+   width: 100%;
+ }
+
+ .heading {
+   color: blanchedalmond;
+   font-size: 8rem;
+   justify-content: center;
+ }
+
+ .secondBtn {
+   position: fixed;
+   left: 56%;
+   top: 80%;
+   background-color: #a6a6a6;
+   text-decoration: none;
+   padding: 0px 10px;
+   font-size: 50px;
+ }
+
+ a:link {
+   color: rgb(7, 7, 7);
+ }
+
+ a:visited {
+   color: rgb(64, 51, 117);
+ }
+
+ a:hover {
+   color: rgb(178, 82, 193);
+   text-shadow: 3px 3px rgb(187, 177, 177);
+ }
+
+ a:active {
+   color: rgb(8, 8, 7);
+ }
+
+ .payEnding {
+   background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2017_25/2049906/170623-better-credit-card-jump-better-ew-12449.jpg);
+ }
+
+ .page6 {
+   background-image: url(https://assets2.rockpapershotgun.com/malenia-head-elden-ring.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/malenia-head-elden-ring.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+ }
+
+ .page8 {
+   background-image: url(https://i.ytimg.com/vi/tN-9bfbCAAc/maxresdefault.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+ }
+
+ .textBoxRed {
+   width: 80vw;
+   height: 20vh;
+   top: 20%;
+   left: 13%;
+   font-family: EldenFont;
+   position: fixed;
+   text-shadow: 1.5px 1.7px rgb(18, 17, 18);
+   font-size: 40px;
+   color: rgb(213, 49, 49);
+ }
+
+ .TitleBtn {
+   position: fixed;
+   left: 80%;
+   top: 80%;
+   background-color: none;
+   text-decoration: none;
+   padding: 0px 10px;
+   font-size: 60px;
+   background-color: blanchedalmond;
+   font-family: EldenFont;
+   src: url(/assets/Fonts/Mantinia\ Regular/Regular);
+ }
+
+ .titletxt {
+   color: rgb(228, 224, 219);
+   font-family: EldenFont;
+   src: url(/assets/Fonts/Mantinia\ Regular/Regular);
+   font-size: 8rem;
+   left: 12%;
+   top: 60%;
+
+ }
+
+ .sideQuests {
+   background-image: url(https://media.distractify.com/brand-img/cJKwE5KXh/0x0/the-elden-beast-2-1647381869423.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+ }
+
+ .playEnding {
+   background-image: url(https://c4.wallpaperflare.com/wallpaper/98/839/824/knight-medieval-drawing-dragon-sword-hd-wallpaper-thumb.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+
+ }
+
+
+
+ .Ending {
+   background-image: url(https://news.xbox.com/en-us/wp-content/uploads/sites/2/2022/02/EldenRing_Coop_HERO.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+ }
+
+ .typewriter,
+ h3, div{
+   overflow: hidden;
+   white-space: wrap;
+   letter-spacing: 2px;
+   animation: typing 10s steps(900, end), blink-caret .75s step-end infinite;
+ }
+
+ @keyframes typing {
+   from {
+     height: 0
+   }
+
+   to {
+     height: 100%
+   }
+ }
 
